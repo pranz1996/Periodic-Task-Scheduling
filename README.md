@@ -6,8 +6,7 @@ There are two ways to use this application: Individual and Organization
 1) Individual: People can add their schedules and daily routine, just like Google keep
 2) Admin can add tasks, and assign to particular employee
 
-Description:
-
+DESCRIPTION:
 A) Individual:
 
 1) person can add task with task title, name, label and reminder
