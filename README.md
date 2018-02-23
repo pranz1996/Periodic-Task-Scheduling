@@ -26,18 +26,19 @@ B) Organization:
 8) assign task to employee -> start and end time is stored
 - set deadline and priority for task
 9) To-do, doing and done list in a single view
+10) update and delete the task
 
 C) Employee:
-10) Details of all tasks and to-do, doing n done list in  a single view
+11) Details of all tasks and to-do, doing n done list in  a single view
 
 Features to be implemented in application :
-11) reminder notification as it has set
-12) calender view:
+12) reminder notification as it has set
+13) calender view:
 - to see task done on particular day for individual 
 - organization/admin can see the tasks completed by each employees
 
 Future enhancement:
-13) Generalized for different oraganizations which follows:
+14) Generalized for different oraganizations which follows:
   i) Organization -> departments -> projects -> modules -> tasks or
   2) Organization -> departments -> projects -> tasks or
   3) Organization -> departments -> tasks or
