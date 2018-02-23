@@ -7,7 +7,9 @@ There are two ways to use this application: Individual and Organization
 2) Admin can add tasks, and assign to particular employee
 
 Description:
+
 A) Individual:
+
 1) person can add task with task title, name, label and reminder
 2) view all the tasks which have reminders
 3) show all the labels 
@@ -15,6 +17,7 @@ A) Individual:
 5) update and delete the task
 
 B) Organization:
+
 6)  Follows standard organization structure : 
           Organization -> departments -> projects -> modules -> tasks
                           departments -> employee
@@ -29,15 +32,17 @@ B) Organization:
 10) update and delete the task
 
 C) Employee:
+
 11) Details of all tasks and to-do, doing n done list in  a single view
 
-Features to be implemented in application :
+* Features to be implemented:
 12) reminder notification as it has set
 13) calender view:
 - to see task done on particular day for individual 
 - organization/admin can see the tasks completed by each employees
 
 Future enhancement:
+
 14) Generalized for different oraganizations which follows:
   i) Organization -> departments -> projects -> modules -> tasks or
   2) Organization -> departments -> projects -> tasks or
