@@ -37,7 +37,7 @@
 	
 	<div class="row-fluid">
 		<div class="span4" align="center">
-		<b> TO-DO </b>
+		<b> TO-DO </b> 
 		</div>
 		<div class="span4" align="center">
 		<b> IN PROGRESS </b>
