@@ -26,7 +26,8 @@ B) Organization:
 - project to add in which department
 - module to add in which project
 - task to add in which module
-8) assign task to employee -> start and end time is stored
+8) assign task to employee 
+- start and end time is stored
 - set deadline and priority for task
 9) To-do, doing and done list in a single view
 10) update and delete the task
@@ -50,7 +51,7 @@ Features to be implemented:
 Future enhancement:
 
 14) Generalized for different oraganizations which follows:
-  i) Organization -> departments -> projects -> modules -> tasks or
-  2) Organization -> departments -> projects -> tasks or
-  3) Organization -> departments -> tasks or
-  4) Organization -> tasks
+  - Organization -> departments -> projects -> modules -> tasks or
+  - Organization -> departments -> projects -> tasks or
+  - Organization -> departments -> tasks or
+  - Organization -> tasks
