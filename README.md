@@ -7,6 +7,7 @@ There are two ways to use this application: Individual and Organization
 2) Admin can add tasks, and assign to particular employee
 
 DESCRIPTION:
+
 A) Individual:
 
 1) person can add task with task title, name, label and reminder
