@@ -35,15 +35,14 @@ B) Organization:
 C) Employee:
 
 11) Details of all tasks and to-do, doing n done list in  a single view
-
+12) calender view:
+- to see task done on particular day for individual 
+- organization/admin can see the tasks completed by each employees
 
 
 Features to be implemented:
 
-12) reminder notification as it has set
-13) calender view:
-- to see task done on particular day for individual 
-- organization/admin can see the tasks completed by each employees
+13) reminder notification as it has set
 
 
 
