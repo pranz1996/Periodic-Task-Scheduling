@@ -2,7 +2,6 @@ package individual.user;
 
 import java.sql.*;
 import java.util.*;
-
 import registration_login.CreateConnection;
 public class DbUtil {
 
@@ -136,7 +135,7 @@ public class DbUtil {
 			conn = CreateConnection.ConnectionGet();
 			
 			// query to fetch all tasks with reminder
-			String query = "select * from individual where logId=? AND taskReminder is not NULL";
+			String query = "select * from individual where logId=? AND taskReminder is not NULL order by taskReminder ASC";
 		
 			stmt = conn.prepareStatement(query);
 			
@@ -206,6 +205,19 @@ public class DbUtil {
 		}
 		// return list of labels
 		return lists;
+	}
+
+	public List<GetSet> updateRemiderList(List<GetSet> task) {
+		
+		long currentTime = System.currentTimeMillis();
+
+		for(int i = 0 ; i < task.size() ; i++) {
+			
+			if(Timestamp.valueOf(task.get(i).getReminder()).getTime() < currentTime) {
+				task.remove(i);
+			}
+		}
+		return task;
 	}
 
 }
