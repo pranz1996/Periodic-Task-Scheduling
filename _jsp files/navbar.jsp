@@ -1,3 +1,4 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 					<ul class="nav navbar-nav">
 						<c:url var="allemp" value="Organization">
 							<c:param name="get" value="showEmp"></c:param>
@@ -16,12 +17,16 @@
 						</c:url>
 						<c:url var="go" value="OrganizationBoard">
 						</c:url>
+						<c:url var="e" value="CalendarServlet">
+						</c:url>
 						<li> <a href="${go}"> Home </a> </li>			
 						<li> <a href="${alldept}">Departments </a> </li>
 						<li> <a href="${allemp}">Employee </a> </li>
 						<li> <a href="${allproj}">Projects </a> </li>
 						<li> <a href="${allmod}">Modules </a> </li>
 						<li> <a href="${alltask}">Tasks </a> </li>
+						<li> </li>
+						<li> <a href="${e}"> CALENDAR VIEW</a> </li>
 					</ul>
 					
 					<ul class="nav navbar-nav navbar-right">
