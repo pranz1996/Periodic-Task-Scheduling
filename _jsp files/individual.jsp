@@ -18,13 +18,23 @@
 		<nav class="navbar navbar-inverse">
 			<div class="container-fluid">
 				<div class="navbar-header">
-					 <a class="navbar-brand">Periodic Task Scheduling</a>
+					<c:url var="e" value="CalendarServletIndividual"> 
+						<c:param name="userId" value="${i}"></c:param>
+					</c:url>
+					 <a class="navbar-brand">Periodic Task Scheduling</a> 
 				</div>
+				<div>
+				<ul class="nav navbar-nav">
+					<li> <a href="${e}"> CALENDAR VIEW</a> </li>
 				
+				</ul>
+				</div>
+				<div>
 				<ul class="nav navbar-nav navbar-right">
 					<li> <a href="Logout"> Logout </a>
 					<li> </li>
 				</ul>
+				</div>
 			</div>
 		</nav>
 	</div>
@@ -60,6 +70,7 @@
 		<c:forEach var="task" items="${THE_TASKS}">
 			<c:choose>
 				<c:when test="${empty task}">
+				<h1> EMPTY </h1>
 				</c:when>
 				<c:otherwise>
 		 	<div class="jumbotron" align="center">
