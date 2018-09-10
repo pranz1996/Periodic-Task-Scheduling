@@ -40,16 +40,15 @@ C) Employee:
 - organization/admin can see the tasks completed by each employees
 
 
-Features to be implemented:
-
-13) reminder notification as it has set
 
 
 
 
-Future enhancement:
+Limitation based on Features:
 
-14) Generalized for different oraganizations which follows:
+1) reminder notification as it has set
+
+2) Generalized for different oraganizations which follows:
   - Organization -> departments -> projects -> modules -> tasks or
   - Organization -> departments -> projects -> tasks or
   - Organization -> departments -> tasks or
