@@ -69,6 +69,7 @@
 		<!--   -->
 		<c:forEach var="task" items="${THE_TASKS}">
 			<c:choose>
+				<!-- When there is no task-->
 				<c:when test="${empty task}">
 				<h1> EMPTY </h1>
 				</c:when>
